@@ -1,4 +1,3 @@
-# web-scrapping-price
 # 🕸️ Web Scraping Project (Amazon + Flipkart)
 
 ## 📌 Overview
@@ -14,6 +13,7 @@ It follows a **modular architecture** with separate scrapers for each platform, 
 * 🔍 Scrapes product data from Amazon and Flipkart
 * 📂 Modular scraper structure (`scraper/` folder)
 * 📊 Saves data into Excel files (`.xlsx`)
+* 📈 Includes **comparison Excel file** for cross-platform analysis
 * ⚡ Clean and reusable code
 * 🧩 Easy to extend for more websites
 
@@ -35,6 +35,7 @@ web_scraping_project/
 └── data/
     │── amazon_data.xlsx
     │── flipkart_data.xlsx
+    │── comparison_data.xlsx
 ```
 
 ---
@@ -75,7 +76,8 @@ python main.py
 ✔ This will:
 
 * Scrape data from Amazon and Flipkart
-* Save results in the `data/` folder as Excel files
+* Generate individual Excel files
+* Create a **comparison dataset** combining both sources
 
 ---
 
@@ -85,11 +87,13 @@ The scraped data is stored in:
 
 * `data/amazon_data.xlsx`
 * `data/flipkart_data.xlsx`
+* `data/comparison_data.xlsx` ✅ (for comparison)
 
-Each file contains:
+### 🔎 Comparison File Includes:
 
 * Product Name
-* Price
+* Price (Amazon vs Flipkart)
+* Platform-wise differences
 
 ---
 
@@ -122,4 +126,3 @@ Shobhit Kumar Yadav
 Feel free to fork this repository and improve it!
 
 ---
-
