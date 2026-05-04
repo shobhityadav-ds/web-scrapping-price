@@ -55,8 +55,8 @@ web_scraping_project/
 ### 1️⃣ Clone the repository
 
 ```
-git clone https://github.com/shobhityadav-ds/web_scraping_project.git
-cd web_scraping_project
+git clone https://github.com/shobhityadav-ds/web-scrapping-price.git
+cd web-scrapping-price
 ```
 
 ### 2️⃣ Install dependencies
